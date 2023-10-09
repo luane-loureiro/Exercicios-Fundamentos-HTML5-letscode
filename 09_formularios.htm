@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formularios</title>
+</head>
+<body>
+    <main>
+        <h1>formulario</h1>
+        <hr>
+        <br>
+        <form action="" method="get">
+            <div>
+                <label for="texto">input de texto placeholder: </label>
+                <input type="text" id="texto" placeholder="irforme seu nome">
+                <br>
+                <br>
+                <label for="texto2">input de texto value: </label>
+                <input type="text" id="texto2" value="Luane">
+                <br>
+                <br>
+                <label for="nome">input de texto name: </label>
+                <input type="text" id="texto3" name="nome">
+            </div>
+        <br>
+        <br>
+            <div>
+                <label for="senha">senha:</label>
+                <input type="password" id="senha" name="senha">
+            </div>
+        <br>
+        <br>
+            <div>
+                <label for="email">E-Mail:</label>
+                <input type="email" id="email" name="email">
+            </div>
+        <br>
+        <br>
+            <div>
+                <label for="data">data de nascimento:</label>
+                <input type="date" id="data" name="data">
+            </div>
+        <br>
+        <br>
+            <div>
+                <label for="hora">horario:</label>
+                <input type="time" id="hora" name="hora">
+            </div>
+        <br>
+        <br>
+            <div>
+                <label for="numero">cpf:</label>
+                <input type="number" id="numero" name="numero">
+            </div>
+        <br>
+        <br>
+            <div>
+                <label for="arquivo">arquivo:</label>
+                <input type="file" id="arquivo" name="arquivo">
+            </div>
+        <br>
+        <br>
+            <div>
+                <label for="url">URL:</label>
+                <input type="url" id="url" name="url">
+            </div>
+        <br>
+        <br>
+            <div>
+                <label for="cor">cor:</label>
+                <input type="color" id="cor" name="cor">
+            </div>
+        <br>
+        <br>
+            <div>
+                <label for="range">range:</label>
+                <input type="range" id="range" name="range" value="100" max="200" min="1">
+            </div>
+        <br>
+        <br>
+            <div>
+                <!--check desmarcado--> 
+                <label for="checkbox1">checkbox padão desmarcado:</label>
+                <input type="checkbox" id="checkbox1" name="checkbox1"> 
+
+                <!--check marcado--> 
+                <label for="checkbox2">checkbox padrão marcado:</label>
+                <input type="checkbox" id="checkbox2" name="checkbox2" checked> 
+            </div>
+            <br>
+            <br>
+            <div>
+                <!--check multipla escolha--> 
+                <label for="escolha">escolha:</label>
+                <input type="radio" id="escolha" name="escolha"> 
+                <input type="radio" id="escolha" name="escolha"> 
+            </div>
+        <br>
+        <br>
+            <div>
+                <textarea name="bio" id="bio" cols="30" rows="10"></textarea>
+            </div>
+            <br>
+            <br>
+            <div>
+                <select name="select" id="select">
+                    <option value="" disabled selected >selecione uma das opções...</option>                   
+                    <option value="receita">Receita</option>
+                    <option value="despesa">Despesa</option>
+                    <option value="transferencia">Transferëncia</option>
+                </select>
+            </div>
+        <br>
+        <br>
+
+            <div>
+                <input type="submit" id="enviar" name="enviar">
+                <input type="reset" id="reset" name="reset" value="limpar">               
+            </div>
+
+
+                
+        </form>
+    </main>
+    
+</body>
+</html>
